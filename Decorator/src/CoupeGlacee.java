@@ -1,5 +1,5 @@
 import java.util.*;
-public abstract class CoupeGlacee {
+public abstract class CoupeGlacee implements Produit {
     ArrayList<Parfums> parfums=new ArrayList<Parfums>();
     protected CoupeGlacee() {}
     public String description() {

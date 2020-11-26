@@ -1,5 +1,5 @@
 public class Chantilly extends DecorateurTopping {
-    public Chantilly(CoupeGlacee c){
+    public Chantilly(Produit c){
         super(c);
     }
     public float cout(){

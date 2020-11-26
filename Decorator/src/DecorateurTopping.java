@@ -1,12 +1,12 @@
-public class DecorateurTopping extends CoupeGlacee{
-    private CoupeGlacee coupe;
-    public DecorateurTopping(CoupeGlacee c){
-        this.coupe=c;
+public class DecorateurTopping implements Produit{
+    private Produit p;
+    public DecorateurTopping(Produit p){
+        this.p=p;
     }
     public float cout(){
-        return coupe.cout();
+        return p.cout();
     }
     public String description(){
-       return coupe.description();
+       return p.description();
     }
 }

@@ -1,5 +1,5 @@
 public class SauceChoco extends DecorateurTopping{
-    public SauceChoco(CoupeGlacee c){
+    public SauceChoco(Produit c){
         super(c);
     }
     public float cout(){

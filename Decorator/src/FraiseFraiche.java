@@ -1,5 +1,5 @@
 public class FraiseFraiche extends DecorateurTopping{
-    public FraiseFraiche(CoupeGlacee c){
+    public FraiseFraiche(Produit c){
         super(c);
     }
     public float cout(){
